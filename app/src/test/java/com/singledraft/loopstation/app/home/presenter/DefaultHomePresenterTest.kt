@@ -22,7 +22,5 @@ class DefaultHomePresenterTest {
         assertNotNull(view)
     }
 
-    class MockView : HomeView{
-
-    }
+    class MockView : HomeView
 }
