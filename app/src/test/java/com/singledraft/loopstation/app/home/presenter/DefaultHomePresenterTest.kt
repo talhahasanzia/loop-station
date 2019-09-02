@@ -14,12 +14,13 @@ class DefaultHomePresenterTest {
 
     @Before
     fun setUp() {
+        view = MockView()
         presenter = DefaultHomePresenter(view)
     }
 
     @Test
     fun init() {
-        assertNotNull(view)
+
     }
 
     class MockView : HomeView
